@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Lime-AtomGit"
+        fetch="https://gitcode.com/zclkkk"
+        sync-c="true"
+        revision="refs/heads/avium-16.2" />
+
+  <!-- GAPPs -->
+  <project path="vendor/pixel/clocks" name="proprietary_vendor_pixel_clocks" remote="Lime-AtomGit" clone-depth="1" />
+  <project path="vendor/pixel/sounds" name="proprietary_vendor_pixel_sounds" remote="Lime-AtomGit" clone-depth="1"/>
+  <project path="vendor/pixel/gms" name="proprietary_vendor_pixel_gms" remote="Lime-AtomGit" clone-depth="1" />
+  <project path="vendor/pixel/gsans" name="proprietary_vendor_pixel_gsans" remote="Lime-AtomGit" clone-depth="1" />
+
+</manifest>
